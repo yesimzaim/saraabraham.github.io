@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+  }
+  
+  .fit {
+  width: 100%;
+  height: auto;
+  position:relative;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  }
+  
+  h1 { 
+  font-family: 'Loved by the King', cursive;
+   color: rgb(179, 218, 185); 
+   font-size: 48px;
+   margin-bottom: 0%;
+   font-weight: lighter;
+   letter-spacing: 3px;
+   padding-top: 1%;
+  }
+  
+  .logo {
+  margin-left: 60px;
+  margin-top: 20px;
+  }
+  
+  h2 {
+    font-family: 'Yomogi', cursive;
+    text-align: center; 
+    margin-top: 0px;
+    font-size: 21px;
+  } 
+  
+  h2:hover {
+   margin-top: 0px;
+  }
+  
+  h2 a {
+  text-decoration: none;
+  color: rgb(236, 195, 157);
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+  }
+  
+  h2 a:hover {
+    color:rgb(231, 99, 46); 
+    font-size: 20px;
+  }
+  
+  .nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      grid-auto-rows: 50px;
+      padding-top: 1%;
+    }
+  
+   
+    h3 {
+      color: rgb(255, 255, 255); 
+      font-family: 'Yomogi', cursive;
+      font-weight: lighter;
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+    }
+    
+    .video {
+      display: block;
+      margin: auto;
+    }
+  
+    .video:hover {
+      width: 90%;
+  
+    }
+  
+    p {
+      color: white;
+      font-family: 'Yomogi', cursive;
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .center {
+      text-align: center;
+      color: white;
+      margin-top: 30px;
+    }
+  
+    p .reviewlink {
+      font-style: italic;
+      color: rgb(236, 195, 157);
+    }
+  
+    .reviewlink:hover {
+      color:rgb(231, 99, 46);
+    }
+    
+    .lower {
+      text-align: center; 
+      margin-top: 50px;
+    }
+  
+    img .bioimage {
+      margin-top: 0px;
+    }
+  
+    .social-media {
+      position: absolute;
+      top: 4%;
+      right: 10%;
+      letter-spacing: 5px;
+      text-decoration: none;
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
+  
+    .fa:hover {
+      color: rgb(226, 76, 30);
+    }
+  
+  .scroll-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 60px;
+    grid-auto-rows: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-top: 6%;
+  }
+  
+   .wrapper {
+     height: auto;
+     width: 50%;
+     overflow-y: scroll;
+     position:relative;
+     left: 25%;
+     padding-top: 2%;
+   }
+  
+   .biobackground {
+     background-image:url(biopic.png);
+     background-repeat: no-repeat;
+     width: 100%;
+   }
+  
+   .homepageimage {
+     background-image:url(imageindex.png);
+     background-repeat:no-repeat;
+   }
