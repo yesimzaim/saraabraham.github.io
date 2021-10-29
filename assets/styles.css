@@ -12,29 +12,16 @@ body {
   
   h1 { 
   font-family: 'Loved by the King', cursive;
-   color: rgb(179, 218, 185); 
-   font-size: 48px;
-   margin-bottom: 0%;
-   font-weight: lighter;
-   letter-spacing: 3px;
-   padding-top: 1%;
+  color: white;
+  font-size: 48px;
   }
   
-  .logo {
-  margin-left: 60px;
-  margin-top: 20px;
-  }
   
   h2 {
     font-family: 'Yomogi', cursive;
-    text-align: center; 
-    margin-top: 0px;
     font-size: 21px;
   } 
   
-  h2:hover {
-   margin-top: 0px;
-  }
   
   h2 a {
   text-decoration: none;
@@ -46,22 +33,21 @@ body {
     color: white;
   }
   
-  h1 a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);  
-  }
   
-  h2 a:hover {
+  .nav-item a:hover {
     color:rgb(231, 99, 46); 
     font-size: 20px;
   }
   
+  .customnav {
+    color:  white;
+  }
+  
   .nav {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 10px;
-      grid-auto-rows: 50px;
-      padding-top: 1%;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 25%;
+      grid-auto-rows: 30%;
     }
   
    
@@ -117,7 +103,7 @@ body {
   
     .social-media {
       position: absolute;
-      top: 4%;
+      top: 9%;
       right: 10%;
       letter-spacing: 5px;
       text-decoration: none;
@@ -126,7 +112,7 @@ body {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 10px;
     }
-  
+    
     .fa:hover {
       color: rgb(226, 76, 30);
     }
@@ -145,14 +131,17 @@ body {
     margin-top: 6%;
   }
   
-   .wrapper {
+   @media screen and (min-width: 601px) {
+     .wrapper {
      height: auto;
      width: 50%;
      overflow-y: scroll;
      position:relative;
      left: 25%;
      padding-top: 2%;
-   }
+     scrollbar-width: none;  /*Firefox*/ 
+   } 
+  }
   
    .biobackground {
      background-image:url(biopic.png);
@@ -164,3 +153,8 @@ body {
      background-image:url(imageindex.png);
      background-repeat:no-repeat;
    }
+
+   .nav {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
